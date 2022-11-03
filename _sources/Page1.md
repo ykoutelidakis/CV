@@ -15,16 +15,16 @@ Accomplished professional with extensive experience in credit risk and scenario 
 
 ## Education
 
-- M.Eng., Engineering & Economics Oxford University
-- Postgraduate Diploma, Financial Engineering Birkbeck University
+- **M.Eng., Engineering & Economics** *Oxford University*
+- **Postgraduate Diploma, Financial Engineering** *Birkbeck University*
 
 ## Credentials
 
-- Certificate in Quantitative Finance (CQF) Fitch Learning
-- FCA’s Unit 1 & Unit 4 Financial Conduct Authority
+- **Certificate in Quantitative Finance (CQF)** *Fitch Learning*
+- **FCA’s Unit 1 & Unit 4** *Financial Conduct Authority*
 
 ## Peer Reviewed Publications
 
-- Transmission Channels of Systemic Risk in the European Financial Network    *Journal of Banking and Finance*
-- Insights in European Interbank Network Contagion                            *Journal of Managerial Finance*
-- Tools for monitoring systemically important banks                           *Bank of Greece Collective Tome*
+- **Transmission Channels of Systemic Risk in Europe**                            *Journal of Banking and Finance*
+- **Insights in European Interbank Network Contagion**                            *Journal of Managerial Finance*
+- **Tools for monitoring systemically important banks**                           *Bank of Greece Collective Tome*

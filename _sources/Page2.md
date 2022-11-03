@@ -2,7 +2,7 @@
 
 ## RDX Works
 <style>img {width: 75px;height: 75px;margin-right: 15px;float: left;}</style>
-<img src="C:\Users\ykout\OneDrive\Desktop\CV\LOGOS\RDX.jpeg"/>
+![](LOGOS/RDX.jpeg)
 <div><p><b>Lead Economist</b></p><p><i>Jan 2022 - Aug 2022</i></p></div>
 
 Worked as economist for the Radix network’s layer-one protocol developer, deploying macroeconomic experience and quantitative modelling knowledge in Decentralized Finance (DeFi) protocol design.
@@ -11,7 +11,7 @@ Worked as economist for the Radix network’s layer-one protocol developer, depl
 
 ## HSBC
 <style>img {width: 75px;height: 75px;margin-right: 15px;float: left;}</style>
-<img src="C:\Users\ykout\OneDrive\Desktop\CV\LOGOS\HSBC.jpg"/>
+![](LOGOS/HSBC.jpg)
 <div><p><b>Senior Manager</b></p><p><i>Apr 2021 - Jan 2022</i></p></div>
 
 Worked in Group Risk for Scenario Planning & Stress Testing division, within the Climate team. Parameterising and expanding transition and physical risk regulatory stress test scenarios supplied by the PRA and other regulators (including HKMA, EBA, and MAS etc.).
@@ -21,7 +21,7 @@ Worked in Group Risk for Scenario Planning & Stress Testing division, within the
 
 ## PwC
 <style>img {width: 75px;height: 75px;margin-right: 15px;float: left;}</style>
-<img src="C:\Users\ykout\OneDrive\Desktop\CV\LOGOS\PwC.jpg"/>
+![](LOGOS/PwC.jpg)
 <div><p><b>Senior Manager</b></p><p><i>Aug 2018 - Apr 2021</i></p></div>
 
 Worked in the risk modelling services group’s banking division team. Built and audited macroeconomic, stress testing, IFRS9 and IRB models for clients. Experience leading teams to design and successfully implement modelling projects for clients in the climate change stress testing space.
@@ -32,7 +32,7 @@ Worked in the risk modelling services group’s banking division team. Built and
 
 ## Barclays
 <style>img {width: 75px;height: 75px;margin-right: 15px;float: left;}</style>
-<img src="C:\Users\ykout\OneDrive\Desktop\CV\LOGOS\BRL.jpg"/>
+![](LOGOS/BRL.jpg)
 <div><p><b>Vice President</b></p><p><i>Aug 2017 - Jul 2018</i></p></div>
 
 Worked in the Enterprise-Wide Risk and Stress Testing functions. Produced economic scenarios for internal and regulatory stress tests and IFRS9/ICAAP. Leveraged in-house model to create scenarios and probability weights for IFRS9 submissions.
@@ -41,7 +41,7 @@ Worked in the Enterprise-Wide Risk and Stress Testing functions. Produced econom
 
 ## NatWest
 <style>img {width: 75px;height: 75px;margin-right: 15px;float: left;}</style>
-<img src="C:\Users\ykout\OneDrive\Desktop\CV\LOGOS\NW.jpg"/>
+![](LOGOS/NW.jpg)
 <div><p><b>Manager</b></p><p><i>Dec 2015 - Aug 2017</i></p></div>
 
 Worked in Stress Testing and built in-house, probability weights calculation methodology, and model for scenario parameterization and expansion, including EViews and R versions for IFRS9 & ICAAPs. Presented to the Bank of England’s Prudential Regulation Authority (PRA).
@@ -51,7 +51,7 @@ Worked in Stress Testing and built in-house, probability weights calculation met
 
 ## Fathom Consulting
 <style>img {width: 75px;height: 75px;margin-right: 15px;float: left;}</style>
-<img src="C:\Users\ykout\OneDrive\Desktop\CV\LOGOS\FTH.jpg"/>
+![](LOGOS/FTH.jpg)
 <div><p><b>Senior Analyst</b></p><p><i>May 2011- Nov 2015</i></p></div>
 
 Produced econometric models (in EViews, Matlab, R and VBA), compiled regular thematic reports on the global economy and presented house views to clients. Developed interactive tools to communicate analysis to stakeholders.
