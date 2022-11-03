@@ -1,4 +1,0 @@
-# Yiannis Koutelidakis 
-
-```{tableofcontents}
-```
