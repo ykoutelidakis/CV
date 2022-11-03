@@ -1,0 +1,13 @@
+# Book settings
+
+title: CV
+author: Yiannis Koutelidakis
+logo: C:\Users\ykout\OneDrive\Desktop\CV\LOGOS\logo.png
+
+# Force re-execution of notebooks on each build.
+execute:
+  execute_notebooks: force
+
+# Information about where the book exists on the web
+repository:
+  url: https://ykoutelidakis.github.io/intro.html  # Online location of your book

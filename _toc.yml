@@ -1,0 +1,8 @@
+# Table of contents
+
+format: jb-book
+root: intro
+chapters:
+- file: Page1
+- file: Page2
+- file: Page3
