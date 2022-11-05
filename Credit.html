@@ -382,22 +382,18 @@ title="Print to PDF"
 <h2>IFRS 9<a class="headerlink" href="#ifrs-9" title="Permalink to this headline">#</a></h2>
 <section id="scenario-probability-weights">
 <h3>Scenario Probability Weights<a class="headerlink" href="#scenario-probability-weights" title="Permalink to this headline">#</a></h3>
-<ul class="simple">
-<li><p>At NatWest Group (then RBS) I worked on macro-economic scenario design and expansion, building a  scenario expansion engine based on the <a class="reference external" href="https://obr.uk/">OBR’s</a> own <a class="reference external" href="https://obr.uk/docs/dlm_uploads/Working-paper-No4-A-small-model-of-the-UK-economy.pdf">econometric model</a> and using that, in conjunction with <a class="reference external" href="https://www.economy.com/getlocal?q=4be237aa-5cc7-40b4-bb96-9ed23e71d45f&amp;app=eccafile">Moody’s Analytics’</a> methodology, to assign IFRS 9 probability weights. This was initially built in EViews and then translated to R, leading a team of third party consultants.</p></li>
-</ul>
+<p>At NatWest Group (then RBS) I worked on macro-economic scenario design and expansion, building a  scenario expansion engine based on the <a class="reference external" href="https://obr.uk/">OBR’s</a> own <a class="reference external" href="https://obr.uk/docs/dlm_uploads/Working-paper-No4-A-small-model-of-the-UK-economy.pdf">econometric model</a> and using that, in conjunction with <a class="reference external" href="https://www.economy.com/getlocal?q=4be237aa-5cc7-40b4-bb96-9ed23e71d45f&amp;app=eccafile">Moody’s Analytics’</a> methodology, to assign IFRS 9 probability weights. This was initially built in EViews and then translated to R, leading a team of third party consultants.</p>
 <p><img alt="" src="_images/AR_MC.jpg" /></p>
 <div>
-    <p>Use an AR(1) process to model GDP and take the residuals which you then bootstrap.</p>
-    <p>Then reconstruct a bootstrapped GDP series and use that in a VAR(1) with an exogenous, driver, variable that defines the scenario (e.g. World GDP, US GDP, Oil prices, etc.)</p>
-    <p>Run a large number of Monte Carlo simulations and use them to recover the empirical distribution of scenario outcomes (empirical CDF).</p>
-    <p>Place the regulatory scenario on that empirical CDF or choose an appropriate percentile of same to define a scenario.</p>
+    <p>1. Use an AR(1) process to model GDP and take the residuals which you then bootstrap.</p>
+    <p>2. Then reconstruct a bootstrapped GDP series and use that in a VAR(1) with an exogenous, driver, variable that defines the scenario (e.g. World GDP, US GDP, Oil prices, etc.)</p>
+    <p>3. Run a large number of Monte Carlo simulations and use them to recover the empirical distribution of scenario outcomes (empirical CDF).</p>
+    <p>4. Place the regulatory scenario on that empirical CDF or choose an appropriate percentile of same to define a scenario.</p>
 </div>
 </section>
 <section id="ecl-model">
 <h3>ECL model<a class="headerlink" href="#ecl-model" title="Permalink to this headline">#</a></h3>
-<ul class="simple">
-<li><p>At PwC I worked on a number of IFRS 9 model audits and also re-produced a large banking client’s entire wholesale ECL modeling suite in R as part of the audit process. This was a large project that took several months to complete and allowed me to learn a lot about PD and LGD modeling. The model replication covered the Macro PD model, Through-the-Cycle and PiT Transition Matrix estimation (cohort and duration approach), CPD and LGD modeling.</p></li>
-</ul>
+<p>At PwC I worked on a number of IFRS 9 model audits and also re-produced a large banking client’s entire wholesale ECL modeling suite in R as part of the audit process. This was a large project that took several months to complete and allowed me to learn a lot about PD and LGD modeling. The model replication covered the Macro PD model, Through-the-Cycle and PiT Transition Matrix estimation (cohort and duration approach), CPD and LGD modeling.</p>
 <p><img alt="" src="_images/ECL.png" /></p>
 <div>
     <p>Estimate Macro PD using macro-economic factors to model Observed Default Rate (ODR) via logistic regresiion.</p>
@@ -412,9 +408,7 @@ title="Print to PDF"
 </section>
 <section id="irb">
 <h2>IRB<a class="headerlink" href="#irb" title="Permalink to this headline">#</a></h2>
-<ul class="simple">
-<li><p>At PwC I worked on desktop model reviews of IRB PD and LGD models (downturn LGD) and a large project to build a toolkit that allowed banking clients to estimate the best time to roll-over their portfolio to the new Basel RWA floor approach.</p></li>
-</ul>
+<p>At PwC I worked on desktop model reviews of IRB PD and LGD models (downturn LGD) and a large project to build a toolkit that allowed banking clients to estimate the best time to roll-over their portfolio to the new Basel RWA floor approach.</p>
 </section>
 </section>
 

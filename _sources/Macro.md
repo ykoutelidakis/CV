@@ -5,7 +5,7 @@ Over the years I have produced econometric models (in EViews, Matlab, R, Excel, 
 ## Market-implied PD
 <style>img {width: 250px;height: 150px;margin-right: 15px;float: left;}</style>
 
-- While at Fathom Consulting, I built a model to extract market-implied conditional Sovereign PD from CDS spreads, based on Bank of England research and the CDS valuation paper of [O'Kane & Turnbull 2003](https://quantlabs.net/academy/download/free_quant_instituitional_books_/%5BLehman%20Brothers%5D%20Valuation%20of%20Credit%20Default%20Swaps.pdf)
+While at Fathom Consulting, I built a model to extract market-implied conditional Sovereign PD from CDS spreads, based on Bank of England research and the CDS valuation paper of [O'Kane & Turnbull 2003](https://quantlabs.net/academy/download/free_quant_instituitional_books_/%5BLehman%20Brothers%5D%20Valuation%20of%20Credit%20Default%20Swaps.pdf)
 
 ![](IMG/CDS.jpg)
 <div>
@@ -19,7 +19,7 @@ Over the years I have produced econometric models (in EViews, Matlab, R, Excel, 
 ## Nowcasting GDP
 <style>img {width: 250px;height: 150px;margin-right: 15px;float: left;}</style>
 
-- While at Fathom Consulting, I replicated the ECB published [Nowcasting methodology](https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1275.pdf?145bf6e35251eedc79d9b1b6ff325e7a) of Reichlin & Giannone, using Kalman filtering, VAR and bridging with factors.
+While at Fathom Consulting, I replicated the ECB published [Nowcasting methodology](https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1275.pdf?145bf6e35251eedc79d9b1b6ff325e7a) of Reichlin & Giannone, using Kalman filtering, VAR and bridging with factors.
 
 ![](IMG/NowCast.png)
 <div>
@@ -30,7 +30,7 @@ Over the years I have produced econometric models (in EViews, Matlab, R, Excel, 
 
 ## OBR macro model
 
-- At NatWest Group (then RBS) I worked on macro-economic scenario design and expansion, building a  scenario expansion engine based on the [OBR's](https://obr.uk/) own [econometric model](https://obr.uk/docs/dlm_uploads/Working-paper-No4-A-small-model-of-the-UK-economy.pdf).
+At NatWest Group (then RBS) I worked on macro-economic scenario design and expansion, building a  scenario expansion engine based on the [OBR's](https://obr.uk/) own [econometric model](https://obr.uk/docs/dlm_uploads/Working-paper-No4-A-small-model-of-the-UK-economy.pdf).
 
 The OBR Small model is based around four core behavioural equations:
 

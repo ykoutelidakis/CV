@@ -9,9 +9,7 @@ While at PwC, I prototyped and then led team building Transition Risk Climate mo
 
 ![](IMG/Merton.png)
 <div>
-    <p>PD is estimated via a structural Merton model whereby the distribution of transitions for each sector (Transition Matrix) is shifted by a factor related to climate exposure.</p>
-    <p>In practice an adjustment is made to the Distance to Default metric (DD) to account for impact of carbon taxes and other transition risks on sectoral profits given emissions intensity.</p>
-    <p>PD = Φ (-DD), where Φ is the CDF of the standard normal distribution. </p>
+    <p>PD is estimated via a structural Merton model whereby the distribution of transitions for each sector (Transition Matrix) is shifted by a factor related to climate exposure.In practice an adjustment is made to the Distance to Default metric (DD) to account for impact of carbon taxes and other transition risks on sectoral profits given emissions intensity. PD = Φ (-DD), where Φ is the CDF of the standard normal distribution. </p>
 </div>
 
 ### ECL
@@ -29,21 +27,21 @@ While at PwC, I developed a Physical Climate Risk model based on the frequency-s
 
 ![](IMG/LDA.png)
 <div>
-<p>LDA is an actuarial method to estimate the expected loss, usually incurred by an insurer, over  a specified time, usually one year.</p>
-<p>Frequency is the number of such events expected to occur over the specified time, e.g. number of wildfires or flood events.</p>
-<p>Severity is the expected cost of each such event, e.g. repairs, disruption, etc.</p>
+    <p>LDA is an actuarial method to estimate the expected loss, usually incurred by an insurer, over  a specified time, usually one year.</p>
+    <p>Frequency is the number of such events expected to occur over the specified time, e.g. number of wildfires or flood events.</p>
+    <p>Severity is the expected cost of each such event, e.g. repairs, disruption, etc.</p>
 </div>
 
 ![](IMG/Copula.png)
 <div>    
-<p>Different events are correlated with each other, where appropriate, via a t-Copula.</p>
-<p>Different events are correlated with each other, where appropriate, via a t-Copula. The process is then repeated a large nunber of times in a Monte Carlo simulation. </p>
+    <p>Different events are correlated with each other, where appropriate, via a t-Copula.</p>
+    <p>The process is then repeated a large nunber of times in a Monte Carlo simulation. </p>
 </div>
 
 ![](IMG/VAR.jpeg)
 <div> 
-<p>After we obtain the distribution of expected losses a Value at Risk (VaR) measure is extracted.</p>
-<p>We also consider Expected Shortfall (to better capture fat-tail risks) or Median Shortfall (to further add stability to MC).</p>
+    <p>After we obtain the distribution of expected losses a Value at Risk (VaR) measure is extracted.</p>
+    <p>We also consider Expected Shortfall (to better capture fat-tail risks) or Median Shortfall (to further add stability to MC).</p>
 </div>
 
 ## Sectoral Decarbonisation Approach
@@ -51,8 +49,7 @@ While at HSBC, I implemented [SBTi's](https://sciencebasedtargets.org/) [Sectora
 
 ![](IMG/SDA.jpeg)
 <div>
-<p>Sectoral intensity is expected to compress or converge with economy in the long-term. Intensity pathway is calculated based on share of sector on GVA and base year intensity.</p>
-<p>Focus is on Scope 1 and Scope 2 emissions where data is available. Minimize the error between aggregated pathway emissions intensity (estimated) and whole economy (provided).</p>
+    <p>Sectoral intensity is expected to compress or converge with economy in the long-term. Intensity pathway is calculated based on share of sector on GVA and base year intensity.Focus is on Scope 1 and Scope 2 emissions where data is available. Minimize the error between aggregated pathway emissions intensity (estimated) and whole economy (provided).</p>
 </div>
 
 ## Input/Output Tables
@@ -60,14 +57,14 @@ While at PwC, I explored the use of I/O tables, specifically [Environmentally-Ex
 
 ![](IMG/IOT.jpg)
 <div>
-<p>An I/O table models the interdependence between different sectors of an economy.Total output is the aggregate of intermediate outputs plus final output  (x=Ax+y).</p> 
-<p>Environment extensions like emissions, waste and other externalities, are appended to the analysis to allow use in estimating transition impacts.</p>
+    <p>An I/O table models the interdependence between different sectors of an economy.Total output is the aggregate of intermediate outputs plus final output  (x=Ax+y).</p> 
+    <p>Environment extensions like emissions, waste and other externalities, are appended to the analysis to allow use in estimating transition impacts.</p>
 </div>
 
 ![](IMG/LEONT.jpg)
 <div>
-<p>Total output is related to final demand via A, the technical coefficients matrix which depends on the relationships between the various sectors.</p>
-<p>The equation is often expressed using L, the so-called Leontief inverse matrix.</p>
+    <p>Total output is related to final demand via A, the technical coefficients matrix which depends on the relationships between the various sectors.</p>
+    <p>The equation is often expressed using L, the so-called Leontief inverse matrix.</p>
 </div>
 
 ## Scenario

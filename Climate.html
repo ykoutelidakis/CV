@@ -401,9 +401,7 @@ title="Print to PDF"
 <p>While at PwC, I prototyped and then led team building Transition Risk Climate model in R. Based on OW &amp; UN 2018 paper on <a class="reference external" href="https://www.oliverwyman.com/our-expertise/insights/2018/apr/extending-our-horizons.html">TCFD</a>.</p>
 <p><img alt="" src="_images/Merton.png" /></p>
 <div>
-    <p>PD is estimated via a structural Merton model whereby the distribution of transitions for each sector (Transition Matrix) is shifted by a factor related to climate exposure.</p>
-    <p>In practice an adjustment is made to the Distance to Default metric (DD) to account for impact of carbon taxes and other transition risks on sectoral profits given emissions intensity.</p>
-    <p>PD = Φ (-DD), where Φ is the CDF of the standard normal distribution. </p>
+    <p>PD is estimated via a structural Merton model whereby the distribution of transitions for each sector (Transition Matrix) is shifted by a factor related to climate exposure.In practice an adjustment is made to the Distance to Default metric (DD) to account for impact of carbon taxes and other transition risks on sectoral profits given emissions intensity. PD = Φ (-DD), where Φ is the CDF of the standard normal distribution. </p>
 </div>
 </section>
 <section id="ecl">
@@ -422,19 +420,19 @@ title="Print to PDF"
 <p>While at PwC, I developed a Physical Climate Risk model based on the frequency-severity approach (also known as <a class="reference external" href="http://www.thierry-roncalli.com/download/lda.pdf">Loss Distribution Approach</a> or LDA) with Monte Carlo VaR. Development in R with Shiny front-end.</p>
 <p><img alt="" src="_images/LDA.png" /></p>
 <div>
-<p>LDA is an actuarial method to estimate the expected loss, usually incurred by an insurer, over  a specified time, usually one year.</p>
-<p>Frequency is the number of such events expected to occur over the specified time, e.g. number of wildfires or flood events.</p>
-<p>Severity is the expected cost of each such event, e.g. repairs, disruption, etc.</p>
+    <p>LDA is an actuarial method to estimate the expected loss, usually incurred by an insurer, over  a specified time, usually one year.</p>
+    <p>Frequency is the number of such events expected to occur over the specified time, e.g. number of wildfires or flood events.</p>
+    <p>Severity is the expected cost of each such event, e.g. repairs, disruption, etc.</p>
 </div>
 <p><img alt="" src="_images/Copula.png" /></p>
 <div>    
-<p>Different events are correlated with each other, where appropriate, via a t-Copula.</p>
-<p>Different events are correlated with each other, where appropriate, via a t-Copula. The process is then repeated a large nunber of times in a Monte Carlo simulation. </p>
+    <p>Different events are correlated with each other, where appropriate, via a t-Copula.</p>
+    <p>The process is then repeated a large nunber of times in a Monte Carlo simulation. </p>
 </div>
 <p><img alt="" src="_images/VAR.jpeg" /></p>
 <div> 
-<p>After we obtain the distribution of expected losses a Value at Risk (VaR) measure is extracted.</p>
-<p>We also consider Expected Shortfall (to better capture fat-tail risks) or Median Shortfall (to further add stability to MC).</p>
+    <p>After we obtain the distribution of expected losses a Value at Risk (VaR) measure is extracted.</p>
+    <p>We also consider Expected Shortfall (to better capture fat-tail risks) or Median Shortfall (to further add stability to MC).</p>
 </div>
 </section>
 <section id="sectoral-decarbonisation-approach">
@@ -442,8 +440,7 @@ title="Print to PDF"
 <p>While at HSBC, I implemented <a class="reference external" href="https://sciencebasedtargets.org/">SBTi’s</a> <a class="reference external" href="https://sciencebasedtargets.org/resources/files/Sectoral-Decarbonization-Approach-Report.pdf">Sectoral Decarbonisation Approach</a> (SDA) to estimate sectoral emission profiles (Excel VBA prototype &amp; Python working model).</p>
 <p><img alt="" src="_images/SDA.jpeg" /></p>
 <div>
-<p>Sectoral intensity is expected to compress or converge with economy in the long-term. Intensity pathway is calculated based on share of sector on GVA and base year intensity.</p>
-<p>Focus is on Scope 1 and Scope 2 emissions where data is available. Minimize the error between aggregated pathway emissions intensity (estimated) and whole economy (provided).</p>
+    <p>Sectoral intensity is expected to compress or converge with economy in the long-term. Intensity pathway is calculated based on share of sector on GVA and base year intensity.Focus is on Scope 1 and Scope 2 emissions where data is available. Minimize the error between aggregated pathway emissions intensity (estimated) and whole economy (provided).</p>
 </div>
 </section>
 <section id="input-output-tables">
@@ -451,13 +448,13 @@ title="Print to PDF"
 <p>While at PwC, I explored the use of I/O tables, specifically <a class="reference external" href="https://en.wikipedia.org/wiki/Environmentally_extended_input%E2%80%93output_analysis">Environmentally-Extended I/O tables</a> and Leontief matrices, to enhance macro-economic models of whole-economy GDP and sectoral GVA.</p>
 <p><img alt="" src="_images/IOT.jpg" /></p>
 <div>
-<p>An I/O table models the interdependence between different sectors of an economy.Total output is the aggregate of intermediate outputs plus final output  (x=Ax+y).</p> 
-<p>Environment extensions like emissions, waste and other externalities, are appended to the analysis to allow use in estimating transition impacts.</p>
+    <p>An I/O table models the interdependence between different sectors of an economy.Total output is the aggregate of intermediate outputs plus final output  (x=Ax+y).</p> 
+    <p>Environment extensions like emissions, waste and other externalities, are appended to the analysis to allow use in estimating transition impacts.</p>
 </div>
 <p><img alt="" src="_images/LEONT.jpg" /></p>
 <div>
-<p>Total output is related to final demand via A, the technical coefficients matrix which depends on the relationships between the various sectors.</p>
-<p>The equation is often expressed using L, the so-called Leontief inverse matrix.</p>
+    <p>Total output is related to final demand via A, the technical coefficients matrix which depends on the relationships between the various sectors.</p>
+    <p>The equation is often expressed using L, the so-called Leontief inverse matrix.</p>
 </div>
 </section>
 <section id="scenario">
