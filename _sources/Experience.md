@@ -5,7 +5,7 @@
 ![](LOGOS/RDX.jpeg)
 <div><p><b>Lead Economist</b></p><p><i>Jan 2022 - Aug 2022</i></p></div>
 
-Worked as economist for the Radix network’s layer-one protocol developer, deploying macroeconomic experience and quantitative modelling knowledge in Decentralized Finance (DeFi) protocol design.
+Worked as lead economist for the Radix network’s layer-one protocol developer, deploying macroeconomic experience and quantitative modelling knowledge in Decentralized Finance (DeFi) protocol design.
 
 - Worked in the design of an algorithmic stablecoin protocol and smart contracts to support the network’s product offering.
 
@@ -14,7 +14,7 @@ Worked as economist for the Radix network’s layer-one protocol developer, depl
 ![](LOGOS/HSBC.jpg)
 <div><p><b>Senior Manager</b></p><p><i>Apr 2021 - Jan 2022</i></p></div>
 
-Worked in Group Risk for Scenario Planning & Stress Testing division, within the Climate team. Parameterising and expanding transition and physical risk regulatory stress test scenarios supplied by the PRA and other regulators (including HKMA, EBA, and MAS etc.).
+Moved to HSBC as part of a team and worked in Group Risk for Scenario Planning & Stress Testing division, within the Climate team. Parameterising and expanding transition and physical risk regulatory stress test scenarios supplied by the PRA and other regulators (including HKMA, EBA, and MAS etc.).
 
 - Worked on Transition and Physical risk PD & LGD model prototypes for the PRA’s 2021 Climate Biennial Stress Test (CBES).
 - Worked on CC Scenario design, vendor model selection and build, MEV expansion, ECL engine replication in Python.
@@ -24,7 +24,7 @@ Worked in Group Risk for Scenario Planning & Stress Testing division, within the
 ![](LOGOS/PwC.jpg)
 <div><p><b>Senior Manager</b></p><p><i>Aug 2018 - Apr 2021</i></p></div>
 
-Worked in the risk modelling services group’s banking division team. Built and audited macroeconomic, stress testing, IFRS9 and IRB models for clients. Experience leading teams to design and successfully implement modelling projects for clients in the climate change stress testing space.
+Moved to PwC as part of a team and worked in the Risk Modelling Services' (RMS) banking division team. Built and audited macroeconomic, stress testing, IFRS9 and IRB models for clients. Experience leading teams to design and successfully implement modelling projects for clients in the climate change stress testing space.
 
 - Led development of Wholesale Credit risk ECL modelling suite in R, for banking client. Covered Macro PD model, LGD modelling and Through-the-Cycle and PiT Transition Matrix estimation (cohort and duration approach).
 - Prototyped and then led team building Transition Risk Climate model in R. Based on UN Climate paper on TCFD (2018).
