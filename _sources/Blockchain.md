@@ -3,7 +3,7 @@
 # Blockchain
 
 ## Stablecoins
-I  looked into a number of stablecoin projects both collateralised (fully or partially) and algorithmic (Constant Function Market Makers) including
+I  looked into a number of stablecoin projects both collateralised (fully or partially, on-chain and off-chain) and algorithmic (Constant Function Market Makers) including
 
 ![](IMG/MCD.bmp)
 <div>

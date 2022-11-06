@@ -9,7 +9,7 @@ While at PwC, I prototyped and then led team building Transition Risk Climate mo
 
 ![](IMG/Merton.png)
 <div>
-    <p>PD is estimated via a structural Merton model whereby the distribution of transitions for each sector (Transition Matrix) is shifted by a factor related to climate exposure.In practice an adjustment is made to the Distance to Default metric (DD) to account for impact of carbon taxes and other transition risks on sectoral profits given emissions intensity. PD = Φ (-DD), where Φ is the CDF of the standard normal distribution. </p>
+    <p>PD is estimated via a structural Merton model whereby the distribution of transitions for each sector (Transition Matrix) is shifted by a factor related to climate exposure. We adjust the Distance to Default (DD) to account for impact of carbon taxes and other transition risks on sectoral profits given emissions intensity. Finally, PD = Φ (-DD), where Φ is the CDF of the standard normal. </p>
 </div>
 
 ### ECL
@@ -36,6 +36,7 @@ While at PwC, I developed a Physical Climate Risk model based on the frequency-s
 <div>    
     <p>Different events are correlated with each other, where appropriate, via a t-Copula.</p>
     <p>The process is then repeated a large nunber of times in a Monte Carlo simulation. </p>
+    <p>This allows us to get the distribution of expected losses. </p>
 </div>
 
 ![](IMG/VAR.jpeg)

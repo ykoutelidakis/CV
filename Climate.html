@@ -138,7 +138,7 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="Macro.html">
-   Macroeconomic
+   Macroeconomics
   </a>
  </li>
  <li class="toctree-l1">
@@ -401,7 +401,7 @@ title="Print to PDF"
 <p>While at PwC, I prototyped and then led team building Transition Risk Climate model in R. Based on OW &amp; UN 2018 paper on <a class="reference external" href="https://www.oliverwyman.com/our-expertise/insights/2018/apr/extending-our-horizons.html">TCFD</a>.</p>
 <p><img alt="" src="_images/Merton.png" /></p>
 <div>
-    <p>PD is estimated via a structural Merton model whereby the distribution of transitions for each sector (Transition Matrix) is shifted by a factor related to climate exposure.In practice an adjustment is made to the Distance to Default metric (DD) to account for impact of carbon taxes and other transition risks on sectoral profits given emissions intensity. PD = Φ (-DD), where Φ is the CDF of the standard normal distribution. </p>
+    <p>PD is estimated via a structural Merton model whereby the distribution of transitions for each sector (Transition Matrix) is shifted by a factor related to climate exposure. We adjust the Distance to Default (DD) to account for impact of carbon taxes and other transition risks on sectoral profits given emissions intensity. Finally, PD = Φ (-DD), where Φ is the CDF of the standard normal. </p>
 </div>
 </section>
 <section id="ecl">
@@ -428,6 +428,7 @@ title="Print to PDF"
 <div>    
     <p>Different events are correlated with each other, where appropriate, via a t-Copula.</p>
     <p>The process is then repeated a large nunber of times in a Monte Carlo simulation. </p>
+    <p>This allows us to get the distribution of expected losses. </p>
 </div>
 <p><img alt="" src="_images/VAR.jpeg" /></p>
 <div> 

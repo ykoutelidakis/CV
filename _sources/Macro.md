@@ -1,4 +1,4 @@
-# Macroeconomic
+# Macroeconomics
 
 Over the years I have produced econometric models (in EViews, Matlab, R, Excel, Python, VBA) for various business needs as well as written reports (regular or ad-hoc) on a number of macro-themes (EM, DM, China, markets, financial contagion), including producing a number of publications in peer reviewed academic journals.
 
