@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Climate Change &#8212; CV</title>
+    <title>Data Gaps &amp; Solutions &#8212; CV</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -52,8 +52,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Regulatory Requirement" href="CLM_2.html" />
-    <link rel="prev" title="Credit Risk" href="Credit.html" />
+    <link rel="next" title="Blockchain" href="Blockchain.html" />
+    <link rel="prev" title="Regulatory Requirement" href="CLM_2.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -147,7 +147,7 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toctree-l1 current active has-children">
-  <a class="current reference internal" href="#">
+  <a class="reference internal" href="Climate.html">
    Climate Change
   </a>
   <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
@@ -155,14 +155,14 @@ const thebe_selector_output = ".output, .cell_output"
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul>
+  <ul class="current">
    <li class="toctree-l2">
     <a class="reference internal" href="CLM_2.html">
      Regulatory Requirement
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="CLM_3.html">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      Data Gaps &amp; Solutions
     </a>
    </li>
@@ -246,7 +246,7 @@ title="Fullscreen mode"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="_sources/Climate.md"
+        <a href="_sources/CLM_3.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -306,41 +306,128 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#transition-risk">
-   Transition Risk
+  <a class="reference internal nav-link" href="#data-pre-processing">
+   <em>
+    <strong>
+     Data Pre-processing
+    </strong>
+   </em>
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#merton-model">
-     Merton Model
+    <a class="reference internal nav-link" href="#consistency">
+     Consistency
     </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#gap">
+       Gap
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#solution">
+       Solution
+      </a>
+     </li>
+    </ul>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ecl">
-     ECL
+    <a class="reference internal nav-link" href="#granularity">
+     Granularity
     </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id1">
+       Gap
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id2">
+       Solution
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#completeness">
+     Completeness
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id3">
+       Gap
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id4">
+       Solution
+      </a>
+     </li>
+    </ul>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#physical-risk">
-   Physical Risk
+  <a class="reference internal nav-link" href="#data-curation">
+   <em>
+    <strong>
+     Data Curation
+    </strong>
+   </em>
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#sectoral-decarbonisation-approach">
-   Sectoral Decarbonisation Approach
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#input-output-tables">
-   Input/Output Tables
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#scenario">
-   Scenario
-  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#availability">
+     Availability
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id5">
+       Gap
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id6">
+       Solution
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#source">
+     Source
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id7">
+       Gap
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id8">
+       Solution
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#update-frequency">
+     Update frequency
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id9">
+       Gap
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id10">
+       Solution
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -351,7 +438,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Climate Change</h1>
+                <h1>Data Gaps & Solutions</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -362,41 +449,128 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#transition-risk">
-   Transition Risk
+  <a class="reference internal nav-link" href="#data-pre-processing">
+   <em>
+    <strong>
+     Data Pre-processing
+    </strong>
+   </em>
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#merton-model">
-     Merton Model
+    <a class="reference internal nav-link" href="#consistency">
+     Consistency
     </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#gap">
+       Gap
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#solution">
+       Solution
+      </a>
+     </li>
+    </ul>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ecl">
-     ECL
+    <a class="reference internal nav-link" href="#granularity">
+     Granularity
     </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id1">
+       Gap
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id2">
+       Solution
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#completeness">
+     Completeness
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id3">
+       Gap
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id4">
+       Solution
+      </a>
+     </li>
+    </ul>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#physical-risk">
-   Physical Risk
+  <a class="reference internal nav-link" href="#data-curation">
+   <em>
+    <strong>
+     Data Curation
+    </strong>
+   </em>
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#sectoral-decarbonisation-approach">
-   Sectoral Decarbonisation Approach
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#input-output-tables">
-   Input/Output Tables
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#scenario">
-   Scenario
-  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#availability">
+     Availability
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id5">
+       Gap
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id6">
+       Solution
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#source">
+     Source
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id7">
+       Gap
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id8">
+       Solution
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#update-frequency">
+     Update frequency
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id9">
+       Gap
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id10">
+       Solution
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -408,86 +582,107 @@ title="Print to PDF"
                 
               <div>
                 
-  <style>img {width: 250px;height: 150px;margin-right: 15px;float: left;}</style>
-<section class="tex2jax_ignore mathjax_ignore" id="climate-change">
-<h1>Climate Change<a class="headerlink" href="#climate-change" title="Permalink to this headline">#</a></h1>
-<section id="transition-risk">
-<h2>Transition Risk<a class="headerlink" href="#transition-risk" title="Permalink to this headline">#</a></h2>
-<section id="merton-model">
-<h3>Merton Model<a class="headerlink" href="#merton-model" title="Permalink to this headline">#</a></h3>
-<p>While at PwC, I prototyped and then led team building Transition Risk Climate model in R. Based on OW &amp; UN 2018 paper on <a class="reference external" href="https://www.oliverwyman.com/our-expertise/insights/2018/apr/extending-our-horizons.html">TCFD</a>.</p>
-<p><img alt="" src="_images/Merton.png" /></p>
-<div>
-    <p>PD is estimated via a structural Merton model whereby the distribution of transitions for each sector (Transition Matrix) is shifted by a factor related to climate exposure. We adjust the Distance to Default (DD) to account for impact of carbon taxes and other transition risks on sectoral profits given emissions intensity. Finally, PD = Φ (-DD), where Φ is the CDF of the standard normal. </p>
-</div>
+  <style>img {width: 100px;height: 100px;margin-right: 15px;float: left;}</style>
+<section class="tex2jax_ignore mathjax_ignore" id="data-gaps-solutions">
+<h1>Data Gaps &amp; Solutions<a class="headerlink" href="#data-gaps-solutions" title="Permalink to this headline">#</a></h1>
+<section id="data-pre-processing">
+<h2><em><strong>Data Pre-processing</strong></em><a class="headerlink" href="#data-pre-processing" title="Permalink to this headline">#</a></h2>
+<section id="consistency">
+<h3>Consistency<a class="headerlink" href="#consistency" title="Permalink to this headline">#</a></h3>
+<section id="gap">
+<h4>Gap<a class="headerlink" href="#gap" title="Permalink to this headline">#</a></h4>
+<p><em>Same variable, different conventions</em></p>
+<p><img alt="" src="_images/5_1.png" />
+NGFS/PRA/EBA/HKMA/CCAR definitions
+Statistical Agency definitions
+Climate Agency standards</p>
 </section>
-<section id="ecl">
-<h3>ECL<a class="headerlink" href="#ecl" title="Permalink to this headline">#</a></h3>
-<p>While at HSBC, I worked on Transition risk PD &amp; LGD model prototypes for the <a class="reference external" href="https://www.bankofengland.co.uk/prudential-regulation">PRA’s</a> 2021 <a class="reference external" href="https://www.bankofengland.co.uk/stress-testing/2021/key-elements-2021-biennial-exploratory-scenario-financial-risks-climate-change">Climate Biennial Stress Test</a> and then guided vendor teams in delivery of Transition Risk model suite (incl. Price Elasticity of Demand).</p>
-<p><img alt="" src="_images/ECL.png" /></p>
-<div>
-    <p>Expected Credit Loss (ECL) is a function of Probability of Default (PD), Loss Given Default (LGD) and Exposure at Default (EAD).</p>
-    <p>ECL = PD*LGD*EAD </p>
-    <p>While there are models for PD & LGD, EAD is often assumed to be fixed or flat for the duration. </p>
-</div>
+<section id="solution">
+<h4>Solution<a class="headerlink" href="#solution" title="Permalink to this headline">#</a></h4>
+<p>Match definitions based on each regulator’s requirements and definitions used. e.g. align GVA definitions across Jurisdictions  circa 50 countries, 25 sectors. Bespoke dataset version for each regulator.</p>
 </section>
 </section>
-<section id="physical-risk">
-<h2>Physical Risk<a class="headerlink" href="#physical-risk" title="Permalink to this headline">#</a></h2>
-<p>While at PwC, I developed a Physical Climate Risk model based on the frequency-severity approach (also known as <a class="reference external" href="http://www.thierry-roncalli.com/download/lda.pdf">Loss Distribution Approach</a> or LDA) with Monte Carlo VaR. Development in R with Shiny front-end.</p>
-<p><img alt="" src="_images/LDA.png" /></p>
-<div>
-    <p>LDA is an actuarial method to estimate the expected loss, usually incurred by an insurer, over  a specified time, usually one year.</p>
-    <p>Frequency is the number of such events expected to occur over the specified time, e.g. number of wildfires or flood events.</p>
-    <p>Severity is the expected cost of each such event, e.g. repairs, disruption, etc.</p>
-</div>
-<p><img alt="" src="_images/Copula.png" /></p>
-<div>    
-    <p>Different events are correlated with each other, where appropriate, via a t-Copula.</p>
-    <p>The process is then repeated a large nunber of times in a Monte Carlo simulation. </p>
-    <p>This allows us to get the distribution of expected losses. </p>
-</div>
-<p><img alt="" src="_images/VAR.jpeg" /></p>
-<div> 
-    <p>After we obtain the distribution of expected losses a Value at Risk (VaR) measure is extracted.</p>
-    <p>We also consider Expected Shortfall (to better capture fat-tail risks) or Median Shortfall (to further add stability to MC).</p>
-</div>
+<section id="granularity">
+<h3>Granularity<a class="headerlink" href="#granularity" title="Permalink to this headline">#</a></h3>
+<section id="id1">
+<h4>Gap<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h4>
+<p><em>Different levels of aggregation</em></p>
+<p><img alt="" src="_images/5_2.png" />
+Economy vs. Sector
+World vs. Country
+Country vs. Region
+Portfolio vs. Counterparty</p>
 </section>
-<section id="sectoral-decarbonisation-approach">
-<h2>Sectoral Decarbonisation Approach<a class="headerlink" href="#sectoral-decarbonisation-approach" title="Permalink to this headline">#</a></h2>
-<p>While at HSBC, I implemented <a class="reference external" href="https://sciencebasedtargets.org/">SBTi’s</a> <a class="reference external" href="https://sciencebasedtargets.org/resources/files/Sectoral-Decarbonization-Approach-Report.pdf">Sectoral Decarbonisation Approach</a> (SDA) to estimate sectoral emission profiles (Excel VBA prototype &amp; Python working model).</p>
-<p><img alt="" src="_images/SDA.jpeg" /></p>
-<div>
-    <p>Sectoral intensity is expected to compress or converge with economy in the long-term. Intensity pathway is calculated based on share of sector on GVA and base year intensity.Focus is on Scope 1 and Scope 2 emissions where data is available. Minimize the error between aggregated pathway emissions intensity (estimated) and whole economy (provided).</p>
-</div>
+<section id="id2">
+<h4>Solution<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h4>
+<p>Interpolate data across time frequencies and expand across geographies using off-the-shelve, widely available and industry standard  transformations .</p>
 </section>
-<section id="input-output-tables">
-<h2>Input/Output Tables<a class="headerlink" href="#input-output-tables" title="Permalink to this headline">#</a></h2>
-<p>While at PwC, I explored the use of I/O tables, specifically <a class="reference external" href="https://en.wikipedia.org/wiki/Environmentally_extended_input%E2%80%93output_analysis">Environmentally-Extended I/O tables</a> and Leontief matrices, to enhance macro-economic models of whole-economy GDP and sectoral GVA.</p>
-<p><img alt="" src="_images/IOT.jpg" /></p>
-<div>
-    <p>An I/O table models the interdependence between different sectors of an economy.Total output is the aggregate of intermediate outputs plus final output  (x=Ax+y).</p> 
-    <p>Environment extensions like emissions, waste and other externalities, are appended to the analysis to allow use in estimating transition impacts.</p>
-</div>
-<p><img alt="" src="_images/LEONT.jpg" /></p>
-<div>
-    <p>Total output is related to final demand via A, the technical coefficients matrix which depends on the relationships between the various sectors.</p>
-    <p>The equation is often expressed using L, the so-called Leontief inverse matrix.</p>
-</div>
 </section>
-<section id="scenario">
-<h2>Scenario<a class="headerlink" href="#scenario" title="Permalink to this headline">#</a></h2>
-<p>While at HSBC, I championed use of baseline scenario in CBES ahead of Bank supplying any Baseline numbers or guidance. A <a class="reference external" href="https://www.openriskmanual.org/wiki/Static_Balance_Sheet_Assumption">Static Balance Sheet</a> (SBS) assumption is required for two-round ST but this implies need for BL scenario to be meaningful.</p>
-<ul class="simple">
-<li><p>In its <a class="reference external" href="https://www.bankofengland.co.uk/-/media/boe/files/paper/2019/the-2021-biennial-exploratory-scenario-on-the-financial-risks-from-climate-change.pdf?la=en&amp;hash=73D06B913C73472D0DF21F18DB71C2F454148C80">2019 CBES paper</a> the PRA notes that:</p></li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>To identify the change in impairments driven by climate-related risks in the scenarios, impairment charges would be compared to those in the baseline scenario of the 2020 annual cyclical scenario stress test.</p>
-</div>
+<section id="completeness">
+<h3>Completeness<a class="headerlink" href="#completeness" title="Permalink to this headline">#</a></h3>
+<section id="id3">
+<h4>Gap<a class="headerlink" href="#id3" title="Permalink to this headline">#</a></h4>
+<p><em>Different % completeness of data series</em></p>
+<p><img alt="" src="_images/5_3.png" />
+Across time (historical)
+Across space (region or country)
+Across sector (industry)</p>
 </section>
-<div class="toctree-wrapper compound">
-</div>
+<section id="id4">
+<h4>Solution<a class="headerlink" href="#id4" title="Permalink to this headline">#</a></h4>
+<p>Extrapolate data back in time (back-casting) and expand across geographies using off-the-shelve, widely available and accepted statistical transformations. Not modelling to avoid challenge</p>
+</section>
+</section>
+</section>
+<section id="data-curation">
+<h2><em><strong>Data Curation</strong></em><a class="headerlink" href="#data-curation" title="Permalink to this headline">#</a></h2>
+<section id="availability">
+<h3>Availability<a class="headerlink" href="#availability" title="Permalink to this headline">#</a></h3>
+<section id="id5">
+<h4>Gap<a class="headerlink" href="#id5" title="Permalink to this headline">#</a></h4>
+<p><em>Transition and Physical Hazard Data not part of the BAU</em></p>
+<p><img alt="" src="_images/5_4.png" />
+Diverse and multiple feeds
+Formatting
+Lack of awareness</p>
+</section>
+<section id="id6">
+<h4>Solution<a class="headerlink" href="#id6" title="Permalink to this headline">#</a></h4>
+<p>Combine all publicly available data and make all sources available via a single, easy-to-use API one-stop-shop.</p>
+</section>
+</section>
+<section id="source">
+<h3>Source<a class="headerlink" href="#source" title="Permalink to this headline">#</a></h3>
+<section id="id7">
+<h4>Gap<a class="headerlink" href="#id7" title="Permalink to this headline">#</a></h4>
+<p><em>Data procured from third parties not primary source data but secondary or tertiary (after assumptions/modeling).</em></p>
+<p><img alt="" src="_images/5_5.png" />
+Use of derived data source
+Data provided with unproven analytics<br />
+Lack of transparency</p>
+</section>
+<section id="id8">
+<h4>Solution<a class="headerlink" href="#id8" title="Permalink to this headline">#</a></h4>
+<p>Investigate, discover and collate all relevant, publicly available datasets</p>
+</section>
+</section>
+<section id="update-frequency">
+<h3>Update frequency<a class="headerlink" href="#update-frequency" title="Permalink to this headline">#</a></h3>
+<section id="id9">
+<h4>Gap<a class="headerlink" href="#id9" title="Permalink to this headline">#</a></h4>
+<p><em>Rugged edges problem in economic data management different release dates/update frequencies</em></p>
+<p><img alt="" src="_images/5_6.png" />
+Timely updated/current data
+Annual
+Quarterly
+Monthly</p>
+</section>
+<section id="id10">
+<h4>Solution<a class="headerlink" href="#id10" title="Permalink to this headline">#</a></h4>
+<p>Prepare coding pipeline to automate update of data on our end so client only ever interacts with final, up-to-date product.</p>
+</section>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -517,17 +712,17 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="Credit.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="CLM_2.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Credit Risk</p>
+            <p class="prev-next-title">Regulatory Requirement</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="CLM_2.html" title="next page">
+    <a class='right-next' id="next-link" href="Blockchain.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Regulatory Requirement</p>
+        <p class="prev-next-title">Blockchain</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
