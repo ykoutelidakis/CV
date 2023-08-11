@@ -1,0 +1,10 @@
+# Book settings
+
+title: CV
+author: Yiannis Koutelidakis
+logo: LOGOS/logo.png
+
+# Force re-execution of notebooks on each build.
+execute:
+  execute_notebooks: force
+
