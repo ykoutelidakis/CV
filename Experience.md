@@ -1,6 +1,6 @@
 # Professional Experience
 
-# S&P Global
+## S&P Global
 <style>img {width: 75px;height: 75px;margin-right: 15px;float: left;}</style>
 ![](LOGOS/SPG.jpeg)
 <div><p><b>Director</b></p><p><i>Feb 2023 - Present</i></p></div>

@@ -10,5 +10,5 @@ execute:
 
 # Information about where the book exists on the web
 repository: ykoutelidakis/CV
-url: https://ykoutelidakis.github.io/CV/  
-baseurl: https://github.com/ykoutelidakis/CV/
+url: https://ykoutelidakis.github.io/CV/ 
+baseurl: /CV/
