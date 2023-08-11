@@ -9,5 +9,6 @@ execute:
   execute_notebooks: force
 
 # Information about where the book exists on the web
-repository:
-  url: https://ykoutelidakis.github.io/intro.html  # Online location of your book
+repository: ykoutelidakis/CV
+url: https://ykoutelidakis.github.io/CV/  
+baseurl: https://github.com/ykoutelidakis/CV/
