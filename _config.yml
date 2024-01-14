@@ -1,3 +1,4 @@
+theme: jekyll-theme-minimal
 # Book settings
 
 title: CV
@@ -12,3 +13,4 @@ execute:
 repository: ykoutelidakis/CV
 url: https://ykoutelidakis.github.io/CV 
 baseurl: /CV/
+
