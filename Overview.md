@@ -13,21 +13,21 @@ Accomplished quantitative economist with nearly 20 years’ experience applying 
 
 ## Education
 
-- **M.Eng., Engineering, Economics & Management** [*Oxford University*](https://www.ox.ac.uk/)
-- **Postgraduate Diploma, Financial Engineering** [*Birkbeck University*](https://www.bbk.ac.uk/)
-)
+- **M.Eng., Engineering, Economics & Management** — [*University of Oxford*](https://www.ox.ac.uk/)
+- **Postgraduate Diploma, Financial Engineering** — [*Birkbeck, University of London*](https://www.bbk.ac.uk/)
+
 ## Credentials
 
-- **Certificate in Quantitative Finance (CQF)** [*Fitch Learning*](https://www.fitchlearning.com/)
-- **FCA’s Unit 1 & Unit 4** [*Financial Conduct Authority*](https://www.fca.org.uk/)
+- **Certificate in Quantitative Finance (CQF)** — [*Fitch Learning / CQF Institute*](https://www.cqf.com/)
+- **FCA’s Unit 1 & Unit 4** — [*Financial Conduct Authority*](https://www.fca.org.uk/)
 
 ## Publications
 
 **Recent (2024–2026)**
-- **Bitcoin Volatility Trends: A Deep Dive into Market Dynamics and Risk** — S&P Global (2026)
-- **What AI and Graph Networks Can Mean for the Future of Financial Analysis** — Nvidia GTC, San Jose (2025)
-- **A dive into liquidity demographics for crypto asset trading** — S&P Global (2025)
-- **Mutually Assured Diversification: Geopolitical & Financial Risk as Compound Systemic Risk** — Paris School of Business, FEBS Conference (2024)
+- **Bitcoin Volatility Trends: A Deep Dive into Market Dynamics and Risk** — [*S&P Global*](https://www.spglobal.com/en/research-insights/special-reports/bitcoin-volatility-trends-deep-dive) (2026)
+- **What AI and Graph Networks Can Mean for the Future of Financial Analysis** — *Nvidia GTC, San Jose* (2025)
+- **A dive into liquidity demographics for crypto asset trading** — [*S&P Global*](https://www.spglobal.com/en/research-insights/special-reports/liquidity-demographics-for-crypto-asset-trading) (2025)
+- **Mutually Assured Diversification: Geopolitical & Financial Risk as Compound Systemic Risk** — [*Paris School of Business, FEBS Conference*](https://febs2024.sciencesconf.org/) (2024)
 
 **Peer-Reviewed Academic**
 - **Transmission Channels of Systemic Risk in the European Financial Network** — [*Journal of Banking and Finance*](https://www.sciencedirect.com/science/article/abs/pii/S0378426615000989) (2015)

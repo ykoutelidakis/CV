@@ -12,8 +12,5 @@ parts:
   - file: Macro
   - file: Credit
   - file: Climate
-    sections:
-    - file: CLM_2
-    - file: CLM_3
   - file: Blockchain
   - file: AI_ML

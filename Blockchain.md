@@ -32,13 +32,26 @@ I analyzed AMM mechanisms and their market microstructure implications based on 
     <p><b>Risk factors:</b> Slippage, divergence loss, toxicity from informed flow, flash loan risks</p>
 </div>
 
-## Liquidity Demographics in Crypto
+## S&P Global Crypto Research
 
-At S&P Global, I co-authored research on liquidity demographics within DeFi ecosystems, analyzing participant behavior and market microstructure in cryptocurrency trading. The research examined:
+At S&P Global, I have co-authored research on cryptocurrency market structure, liquidity and risk.
+
+### Liquidity Demographics in Crypto
+
+[**A dive into liquidity demographics for crypto asset trading**](https://www.spglobal.com/en/research-insights/special-reports/liquidity-demographics-for-crypto-asset-trading) (S&P Global, 2025) — co-authored research analyzing participant behavior and market microstructure in cryptocurrency trading, measuring how quickly an asset can be transformed into fiat or stablecoins without significant cost or price dislocation. The research examined:
 
 - Trading participation patterns across time zones and market regimes
 - Liquidity concentration and market depth evolution
 - Micro-structural drivers of price efficiency and volatility
 - Insights for CFMM designs focused on reducing price impact and slippage
 
-This work has informed thinking on liquidity-aware protocol design and the role of market microstructure in stable-asset protocols.
+### Bitcoin Volatility & Market Dynamics
+
+[**Bitcoin Volatility Trends: A Deep Dive into Market Dynamics and Risk**](https://www.spglobal.com/en/research-insights/special-reports/bitcoin-volatility-trends-deep-dive) (S&P Global, 2026) — co-authored research examining Bitcoin's evolving role in financial markets. Key findings:
+
+- Bitcoin volatility, while still higher than traditional assets, is on a long-term downtrend as institutional adoption grows
+- The perpetual-futures-dominated trading structure (leverage + automated liquidations) amplifies price volatility
+- Bitcoin functions more as a hedge against long-term currency debasement than against short-term inflation
+- Deeper integration with traditional finance (spot ETFs, corporate treasury allocations) introduces new linkages and risks
+
+This work has informed my thinking on liquidity-aware protocol design and the role of market microstructure in stable-asset protocols, with ongoing interest in CFMM designs that reduce price impact and slippage.

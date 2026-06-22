@@ -10,5 +10,10 @@ execute:
 
 # Information about where the book exists on the web
 repository: ykoutelidakis/CV
-url: https://ykoutelidakis.github.io/CV 
+url: https://ykoutelidakis.github.io/CV
 baseurl: /CV/
+
+# Copyright / footer
+sphinx:
+  config:
+    copyright: "2026"
