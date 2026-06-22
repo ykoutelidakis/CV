@@ -1,0 +1,35 @@
+# Overview
+
+## Summary
+
+Accomplished quantitative economist with nearly 20 years’ experience applying advanced modelling to credit risk, macroeconomic and climate scenario analysis, and decentralized finance (DeFi). Currently Director, Quantitative Modelling at S&P Global. Expertise in systems thinking and network science, designing models that capture complex interdependencies and non-linear impacts in financial and economic systems. Strong track record prototyping and deploying macroeconomics and credit risk quantitative models across global banks, Big-4 consultancy, and Big-3 credit rating agencies. Formal credentials include [Oxford Engineering degree (M.Eng.)](https://www.ox.ac.uk/) and [Certificate in Quantitative Finance (CQF)](https://www.cqf.com/). Work published in peer-reviewed academic and professional journals.
+
+## Core Competencies
+
+- **Programming & Tools**: Python, R, VBA, Excel, MATLAB, EViews
+- **Quantitative Methods**: Statistics, Data Science, Machine Learning, Macroeconomics & Econometrics
+- **Domain Expertise**: Network science & systems thinking; Credit risk (IFRS 9, IRB); Macroeconomic scenario generation; Regulatory stress testing; Climate Change & ESG risk
+- **AI/ML Applications**: Graph Neural Networks, Agent-Based Models, Network Analysis, Advanced Time Series
+
+## Education
+
+- **M.Eng., Engineering, Economics & Management** [*Oxford University*](https://www.ox.ac.uk/)
+- **Postgraduate Diploma, Financial Engineering** [*Birkbeck University*](https://www.bbk.ac.uk/)
+)
+## Credentials
+
+- **Certificate in Quantitative Finance (CQF)** [*Fitch Learning*](https://www.fitchlearning.com/)
+- **FCA’s Unit 1 & Unit 4** [*Financial Conduct Authority*](https://www.fca.org.uk/)
+
+## Publications
+
+**Recent (2024–2026)**
+- **Bitcoin Volatility Trends: A Deep Dive into Market Dynamics and Risk** — S&P Global (2026)
+- **What AI and Graph Networks Can Mean for the Future of Financial Analysis** — Nvidia GTC, San Jose (2025)
+- **A dive into liquidity demographics for crypto asset trading** — S&P Global (2025)
+- **Mutually Assured Diversification: Geopolitical & Financial Risk as Compound Systemic Risk** — Paris School of Business, FEBS Conference (2024)
+
+**Peer-Reviewed Academic**
+- **Transmission Channels of Systemic Risk in the European Financial Network** — [*Journal of Banking and Finance*](https://www.sciencedirect.com/science/article/abs/pii/S0378426615000989) (2015)
+- **Insights in European Interbank Network Contagion** — [*Journal of Managerial Finance*](https://www.emerald.com/insight/content/doi/10.1108/MF-03-2014-0095/full/html) (2015)
+- **Tools for monitoring systemically important banks** — Hellenic Banking Association, *in Greek* (2010)

@@ -1,0 +1,14 @@
+# Book settings
+
+title: CV
+author: Yiannis Koutelidakis
+logo: LOGOS/logo.png
+
+# Force re-execution of notebooks on each build.
+execute:
+  execute_notebooks: force
+
+# Information about where the book exists on the web
+repository: ykoutelidakis/CV
+url: https://ykoutelidakis.github.io/CV 
+baseurl: /CV/
