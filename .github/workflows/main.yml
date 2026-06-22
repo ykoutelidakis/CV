@@ -10,27 +10,38 @@ permissions:
   id-token: write
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.10'
+        python-version: '3.11'
     
     - name: Install dependencies
       run: |
-        pip install jupyter-book ghp-import
+        pip install jupyter-book
     
     - name: Build the book
       run: |
         jupyter-book build .
     
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: '_build/html'
+  
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    steps:
     - name: Deploy to GitHub Pages
-      run: |
-        ghp-import -n -p -f -c ykoutelidakis.github.io/CV _build/html
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      id: deployment
+      uses: actions/deploy-pages@v2
