@@ -6,6 +6,11 @@
 
 At S&P Global's Sustainable Finance division, I prototype and lead development of climate credit risk and scenario analysis models, offering regulatory and business-as-usual scenario capability across portfolios of financial institution obligations, real estate mortgages and sovereign bonds. The models quantify the credit impact of climate transition and physical risk under NGFS, ECB, Federal Reserve, MAS and other regulatory frameworks.
 
+## Conferences & Events
+
+- [**Climate Festival 2026 — Decoupling Rhetoric from Reality: Financing the Transition to Net Zero**](https://www.bbk.ac.uk/events/event/59517/climate-festival-2026-decoupling-rhetoric-from-reality-financing-the-transition-to-net-zero) — Birkbeck, University of London (2026)
+- [**Sustainable1 Summit 2023 — Shaping the Future of Sustainability**](https://www.spglobal.com/market-intelligence/en/news-insights/research/sustainable1-summit-2023-shaping-the-future-of-sustainability) — S&P Global (2023)
+
 ## Transition Risk
 
 ### Merton Model
