@@ -2,11 +2,9 @@
 
 # Climate Change
 
-## S&P Global Climate Research
+## S&P Global Climate Work
 
-At S&P Global's Sustainable Finance division, I develop climate credit risk and scenario analysis models and contribute to thought-leadership research on the credit impacts of climate transition and physical risk.
-
-- [**How Climate Scenarios Help Identify Potential Credit Impacts**](https://www.spglobal.com/sustainable1/en/insights/special-editorial/how-climate-scenarios-help-identify-potential-credit-impacts) — S&P Global. Climate scenario analysis compatible with NGFS, ECB, Federal Reserve and MAS frameworks, leveraging company-level financial and emissions data to quantify credit impacts across portfolios.
+At S&P Global's Sustainable Finance division, I prototype and lead development of climate credit risk and scenario analysis models, offering regulatory and business-as-usual scenario capability across portfolios of financial institution obligations, real estate mortgages and sovereign bonds. The models quantify the credit impact of climate transition and physical risk under NGFS, ECB, Federal Reserve, MAS and other regulatory frameworks.
 
 ## Transition Risk
 
