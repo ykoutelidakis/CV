@@ -4,7 +4,7 @@
 
 ## Graph Neural Networks for Financial Markets
 
-At S&P Global, I participated in an inter-disciplinary project with Nvidia to apply Graph Neural Networks (GNNs) and Agent-Based Models (ABMs) to financial market analysis, under the supervision of S&P Global's CTO and led by the company's Chief Innovation Officer. There I assisted in the decomposition and analysis of the underpinning variables to help formulate the nodes and edges of the graph and helped with setting reasonable "bands" of tolerance for the data.  This work was showcased at Nvidia's flagship 2025 GTC (GPU Technology Conference) in San Jose, California — [**watch the session on demand**](https://www.nvidia.com/en-us/on-demand/session/gtc25-s74726/).
+At S&P Global, I contributed to an inter-disciplinary project with Nvidia to apply Graph Neural Networks (GNNs) and Agent-Based Models (ABMs) to financial market analysis, under the supervision of S&P Global's CTO and led by the company's Chief Innovation Officer. There I assisted in the decomposition and analysis of the underpinning variables to help formulate the nodes and edges of the graph and helped with setting reasonable "bands" of tolerance for the data.  This work was showcased at Nvidia's flagship 2025 GTC (GPU Technology Conference) in San Jose, California — [**watch the session on demand**](https://www.nvidia.com/en-us/on-demand/session/gtc25-s74726/).
 
 ### What are Graph Neural Networks?
 

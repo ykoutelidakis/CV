@@ -1,11 +1,12 @@
 # Systems Thinking & Network Science
 
-A through-line across my work — from peer-reviewed research on interbank contagion to DeFi protocol design and the Nvidia GNN project — is a **systems-thinking and network-science lens**: modelling financial and economic systems as interconnected networks where structure, feedback and non-linear contagion drive outcomes, as opposed to linear regressions. That is the only way to accurately capture empirically observed behaviours.
-Whether it's climate (absorbing state of ruin), credit risk (again the default grade is an absorbing state), the ensemble vs. time series dichotomy of LGD-PD relationship, the non-linearity assumption for impacts at the heart of all stress-testing exercises (a 5% GDP drop will **not** cause 5x as many losses as a 1% recession) or the eye-watering Gini coefficients of most blockchain wallet distributions the one common thread is **non-linear impacts**. This has informed my interest in non-linear, structural models, where SME expertise and intuition can be deployed to assist with modeling and explainability, rather than defaulting to reduced form, black-box approaches.
+## Non-linear lense
+
+A through-line across my work — from peer-reviewed research on interbank contagion to DeFi protocol design and the Nvidia GNN project — is a **systems-thinking** and **network-science** lens: modelling financial and economic systems as interconnected networks where structure, feedback and non-linear contagion drive outcomes, as opposed to linear regressions. This way to more accurately capture empirically observed behaviours has informed my interest in non-linear, structural models, where SME expertise and intuition can be deployed to assist with modeling and explainability, rather than defaulting to reduced form, black-box approaches.
 
 ## From Econometrics to Modern ML
 
-Much of modern AI/ML generalises the econometrics and credit-risk methods I have built and deployed in production for nearly two decades. Data science was not a common term when I started working in 2005 - it was just called statistics. The mapping below summarises how core techniques on my CV relate to their machine-learning counterparts:
+Much of modern AI/ML generalises the econometrics and credit-risk methods I have built and deployed in production for nearly two decades. Data science was not a common term when I started working in finance in 2005 - it was just called statistics and red suspenders over a pin-stripped shirt were still (barely but still) a thing. The mapping below summarises how core techniques on my CV relate to their machine-learning counterparts:
 
 | Established Method | Machine-Learning Generalisation |
 |--------------------|---------------------------------|
@@ -28,4 +29,8 @@ The transition from classical econometrics to modern ML is largely a move from s
 
 ---
 
-Across these methods the common thread is a **network-science and systems-thinking lens** — now expressed through Graph Neural Networks and agent-based models — applied to long-standing problems in credit risk and macro-financial stability.
+## Through a non-linear lense, darkly
+
+Across these methods and much of my experience working in finance through the 2007 Sub-Prime, 2008 GFC, 2010 Greek and then Eurozone Debt crises, the Covid19 wrecking-ball on banks' stress testing models, the implementation of Paris 2050 climate strategy in finance; the common thread is the importance of **non-linearity** in explaining a messy world that constantly resists simple, tractable and mathematically convenient answers. 
+
+Whether it's climate (absorbing state of ruin), credit risk (again the default grade is an absorbing state), the ensemble vs. time series dichotomy of LGD-PD relationship, the non-linearity assumption for impacts at the heart of all stress-testing exercises (a 5% GDP drop will **not** cause 5x as many losses as a 1% recession) or the eye-watering Gini coefficients of most blockchain wallet distributions the one common thread is **non-linearity**. 
