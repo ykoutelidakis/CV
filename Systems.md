@@ -1,10 +1,11 @@
 # Systems Thinking & Network Science
 
-A through-line across my work — from peer-reviewed research on interbank contagion to DeFi protocol design and the Nvidia GNN project — is a **systems-thinking and network-science lens**: modelling financial and economic systems as interconnected networks where structure, feedback and non-linear contagion drive outcomes that single-equation models miss.
+A through-line across my work — from peer-reviewed research on interbank contagion to DeFi protocol design and the Nvidia GNN project — is a **systems-thinking and network-science lens**: modelling financial and economic systems as interconnected networks where structure, feedback and non-linear contagion drive outcomes, as opposed to linear regressions. That is the only way to accurately capture empirically observed behaviours.
+Whether it's climate (absorbing state of ruin), credit risk (again the default grade is an absorbing state), the ensemble vs. time series dichotomy of LGD-PD relationship, the non-linearity assumption for impacts at the heart of all stress-testing exercises (a 5% GDP drop will **not** cause 5x as many losses as a 1% recession) or the eye-watering Gini coefficients of most blockchain wallet distributions the one common thread is **non-linear impacts**. This has informed my interest in non-linear, structural models, where SME expertise and intuition can be deployed to assist with modeling and explainability, rather than defaulting to reduced form, black-box approaches.
 
 ## From Econometrics to Modern ML
 
-Much of modern AI/ML generalises the econometrics and credit-risk methods I have built and deployed in production for nearly two decades. The mapping below summarises how core techniques on this CV relate to their machine-learning counterparts:
+Much of modern AI/ML generalises the econometrics and credit-risk methods I have built and deployed in production for nearly two decades. Data science was not a common term when I started working in 2005 - it was just called statistics. The mapping below summarises how core techniques on my CV relate to their machine-learning counterparts:
 
 | Established Method | Machine-Learning Generalisation |
 |--------------------|---------------------------------|
@@ -16,7 +17,7 @@ Much of modern AI/ML generalises the econometrics and credit-risk methods I have
 | Agent-based modelling | Multi-agent / reinforcement-learning systems |
 | Monte Carlo simulation | Importance sampling, variational inference |
 
-The transition from classical econometrics to modern ML is largely a move from specifying relationships by hand to **learning them from data** — automatic feature engineering and model structure in place of explicit functional forms.
+The transition from classical econometrics to modern ML is largely a move from specifying relationships by hand to **learning them from data** — automatic feature engineering and model structure in place of explicit functional forms. In the end, we still need to embed these forms in the model somehow - whether they emerge through parameter fitting during training, as a result of the interactions of agents in a network ABM or we code them in manually. 
 
 ## Key Methods in Context
 
