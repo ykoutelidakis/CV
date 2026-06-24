@@ -21,6 +21,10 @@ jobs:
     steps:
     - uses: actions/checkout@v5
 
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v5
+
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
@@ -33,6 +37,11 @@ jobs:
     - name: Build the book
       run: |
         jupyter-book build . --all
+
+    - name: List build output (debug)
+      run: |
+        echo "--- _build/html ---"
+        ls -la _build/html | head -30
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
