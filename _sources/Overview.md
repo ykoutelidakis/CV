@@ -7,8 +7,8 @@ Accomplished quantitative economist with nearly 20 years’ experience applying 
 ## Core Competencies
 
 - **Programming & Tools**: Python, R, VBA, Excel, MATLAB, EViews
-- **Quantitative Methods**: Statistics, Data Science, Machine Learning, Macroeconomics & Econometrics
-- **Domain Expertise**: Network science & systems thinking; Credit risk (IFRS 9, IRB); Macroeconomic scenario generation; Regulatory stress testing; Climate Change & ESG risk
+- **Quantitative Methods**: Probability, Statistics, Data Science, Machine Learning, Econometrics
+- **Domain Expertise**: Network science & systems thinking; Credit risk (IFRS 9, IRB); Macroeconomics; Regulatory stress testing; Climate Change & ESG risk, Blockchain/Tokenomics
 - **AI/ML Applications**: Graph Neural Networks, Agent-Based Models, Network Analysis, Advanced Time Series
 
 ## Education

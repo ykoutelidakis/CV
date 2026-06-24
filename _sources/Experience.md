@@ -5,11 +5,11 @@
 ![](LOGOS/SPG.jpeg)
 <div><p><b>Director, Quantitative Modelling</b></p><p><i>Feb 2023 - Present</i></p></div>
 
-Leading quantitative climate credit risk modelling within S&P Global's Sustainable Finance (ESG/Climate) division, developing macroeconomic, climate change and credit risk stress testing models. Prototyped and led development of climate credit risk models offering regulatory and business-as-usual scenario analysis capability for financial institutions' portfolios (equities, bonds, mortgages, sovereigns).
+Working as a quantitative lead modeller on climate credit risk within S&P Global's Sustainable1  (ESG/Climate) division, developing macroeconomic, climate change and credit risk stress testing models. Prototyped and led development of climate credit risk models offering regulatory and business-as-usual scenario analysis capability for clients' portfolios of exposures (bonds or equity) in financial institutions, residential and commercial mortgage loans and finally, sovereigns.
 
 **Key highlights:**
 - Contributed to inter-disciplinary project with Nvidia on AI for financial analysis, implementing Graph Neural Network-based Agent-Based Models of the US corporate bond market. Project showcased at Nvidia's flagship 2025 GTC in San Jose, California.
-- **Wholesale Credit Risk Suite (c.£500K contracts):** Designed climate credit risk models quantifying impacts of macroeconomic and climate scenarios on credit portfolios, supporting major financial institution clients' climate risk disclosures and capital planning.
+- **Wholesale Credit Risk Suite (c.£500K contracts across 3 yrs):** Designed climate credit risk models quantifying impacts of macroeconomic and climate scenarios on credit portfolios, supporting major financial institution clients' climate risk disclosures and capital planning.
 
 ## RDX Works
 <style>img {width: 75px;height: 75px;margin-right: 15px;float: left;}</style>

@@ -13,7 +13,7 @@ While serving as Lead Economist at RDX Works (Radix layer-one protocol developer
 
 ## Stablecoins: Taxonomy & Design
 
-I studied a number of stablecoin projects both collateralised (fully or partially, on-chain and off-chain) and algorithmic (Constant Function Market Makers):
+I analyzed a number of stablecoin projects both collateralised (fully or partially, on-chain and off-chain) and algorithmic (Constant Function Market Makers):
 
 ![](IMG/MCD.bmp)
 <div>
