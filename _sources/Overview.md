@@ -25,7 +25,7 @@ Accomplished quantitative economist with nearly 20 years’ experience applying 
 
 **Recent (2024–2026)**
 - **Bitcoin Volatility Trends: A Deep Dive into Market Dynamics and Risk** — [*S&P Global*](https://www.spglobal.com/en/research-insights/special-reports/bitcoin-volatility-trends-deep-dive) (2026)
-- **What AI and Graph Networks Can Mean for the Future of Financial Analysis** — *Nvidia GTC, San Jose* (2025)
+- **What AI and Graph Networks Can Mean for the Future of Financial Analysis** — [*Nvidia GTC, San Jose*](https://www.nvidia.com/en-us/on-demand/session/gtc25-s74726/) (2025)
 - **A dive into liquidity demographics for crypto asset trading** — [*S&P Global*](https://www.spglobal.com/en/research-insights/special-reports/liquidity-demographics-for-crypto-asset-trading) (2025)
 - **Mutually Assured Diversification: Geopolitical & Financial Risk as Compound Systemic Risk** — [*Paris School of Business, FEBS Conference*](https://febs2024.sciencesconf.org/) (2024)
 
