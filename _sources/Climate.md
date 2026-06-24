@@ -16,6 +16,12 @@ At S&P Global's Sustainable Finance division, I prototype and lead development o
 ### Merton Model
 While at PwC, I prototyped and then led team building Transition Risk Climate model in R. Based on OW & UN 2018 paper on [TCFD](https://www.oliverwyman.com/our-expertise/insights/2018/apr/extending-our-horizons.html).
 
+PD is obtained from a structural Merton model in which the Distance to Default (DD) is shifted by a climate factor $Z$ capturing carbon taxes and transition shocks on sectoral profits:
+
+$$
+\mathrm{PD} = \Phi(-DD), \qquad DD_{\text{climate}} = DD - \Delta_{Z}(\text{carbon tax, transition shock})
+$$
+
 ![](IMG/Merton.png)
 <div>
     <p>PD is estimated via a structural Merton model whereby the distribution of transitions for each sector (Transition Matrix) is shifted by a factor related to climate exposure. We adjust the Distance to Default (DD) to account for impact of carbon taxes and other transition risks on sectoral profits given emissions intensity. Finally, PD = Φ (-DD), where Φ is the CDF of the standard normal. </p>
@@ -23,6 +29,10 @@ While at PwC, I prototyped and then led team building Transition Risk Climate mo
 
 ### ECL
 While at HSBC, I worked on Transition risk PD & LGD model prototypes for the [PRA’s](https://www.bankofengland.co.uk/prudential-regulation) 2021 [Climate Biennial Stress Test](https://www.bankofengland.co.uk/stress-testing/2021/key-elements-2021-biennial-exploratory-scenario-financial-risks-climate-change) and then guided vendor teams in delivery of Transition Risk model suite (incl. Price Elasticity of Demand).
+
+$$
+\mathrm{ECL} = \mathrm{PD}\cdot\mathrm{LGD}\cdot\mathrm{EAD}
+$$
 
 ![](IMG/ECL.png)
 <div>
@@ -34,6 +44,12 @@ While at HSBC, I worked on Transition risk PD & LGD model prototypes for the [PR
 ## Physical Risk
 While at PwC, I developed a Physical Climate Risk model based on the frequency-severity approach (also known as [Loss Distribution Approach](http://www.thierry-roncalli.com/download/lda.pdf) or LDA) with Monte Carlo VaR. Development in R with Shiny front-end. 
 
+Aggregate loss compounds a random event count (frequency) with a random per-event cost (severity):
+
+$$
+S = \sum_{i=1}^{N} X_i, \qquad N \sim \mathrm{Poisson}(\lambda), \qquad \mathbb{E}[S] = \mathbb{E}[N]\,\mathbb{E}[X]
+$$
+
 ![](IMG/LDA.png)
 <div>
     <p>LDA is an actuarial method to estimate the expected loss, usually incurred by an insurer, over  a specified time, usually one year.</p>
@@ -41,12 +57,26 @@ While at PwC, I developed a Physical Climate Risk model based on the frequency-s
     <p>Severity is the expected cost of each such event, e.g. repairs, disruption, etc.</p>
 </div>
 
+Dependence between hazards is introduced through a $t$-Copula, which (by Sklar's theorem) separates the marginals from the joint dependence structure and captures fatter joint tails than a Gaussian copula:
+
+$$
+F(x_1,\dots,x_d) = C\big(F_1(x_1),\dots,F_d(x_d)\big)
+$$
+
 ![](IMG/Copula.png)
 <div>    
     <p>Different events are correlated with each other, where appropriate, via a t-Copula.</p>
     <p>The process is then repeated a large nunber of times in a Monte Carlo simulation. </p>
     <p>This allows us to get the distribution of expected losses. </p>
 </div>
+
+From the simulated loss distribution we read the tail risk metrics — Value at Risk, and Expected / Median Shortfall for the average / median loss beyond it:
+
+$$
+\mathrm{VaR}_\alpha(L) = \inf\{\, l : \mathbb{P}(L \le l) \ge \alpha \,\},
+\qquad
+\mathrm{ES}_\alpha = \mathbb{E}\!\left[L \mid L \ge \mathrm{VaR}_\alpha\right]
+$$
 
 ![](IMG/VAR.jpeg)
 <div> 
@@ -67,15 +97,15 @@ While at PwC, I explored the use of I/O tables, specifically [Environmentally-Ex
 
 ![](IMG/IOT.jpg)
 <div>
-    <p>An I/O table models the interdependence between different sectors of an economy.Total output is the aggregate of intermediate outputs plus final output  (x=Ax+y).</p> 
+    <p>An I/O table models the interdependence between different sectors of an economy. Total output is the aggregate of intermediate outputs plus final output.</p> 
     <p>Environment extensions like emissions, waste and other externalities, are appended to the analysis to allow use in estimating transition impacts.</p>
 </div>
 
-![](IMG/LEONT.jpg)
-<div>
-    <p>Total output is related to final demand via A, the technical coefficients matrix which depends on the relationships between the various sectors.</p>
-    <p>The equation is often expressed using L, the so-called Leontief inverse matrix.</p>
-</div>
+Total output $x$ relates to final demand $y$ through the technical-coefficients matrix $A$; inverting gives the Leontief inverse $L = (I-A)^{-1}$:
+
+$$
+x = Ax + y \;\Longrightarrow\; x = (I - A)^{-1}\, y \;=\; L\,y
+$$
 
 ## Scenario
 While at HSBC, I championed use of baseline scenario in CBES ahead of Bank supplying any Baseline numbers or guidance. A [Static Balance Sheet](https://www.openriskmanual.org/wiki/Static_Balance_Sheet_Assumption) (SBS) assumption is required for two-round ST but this implies need for BL scenario to be meaningful. 

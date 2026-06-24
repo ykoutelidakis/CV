@@ -11,6 +11,14 @@ I  worked on regulatory stress tests since the first of the PRA's [Annual Cyclic
 
 At NatWest Group (then RBS) I worked on macro-economic scenario design and expansion, building a  scenario expansion engine based on the [OBR's](https://obr.uk/) own [econometric model](https://obr.uk/docs/dlm_uploads/Working-paper-No4-A-small-model-of-the-UK-economy.pdf) and using that, in conjunction with [Moody's Analytics'](https://www.economy.com/getlocal?q=4be237aa-5cc7-40b4-bb96-9ed23e71d45f&app=eccafile) methodology, to assign IFRS 9 probability weights. This was initially built in EViews and then translated to R, leading a team of third party consultants.
 
+The core engine bootstraps the residuals of an $AR(1)$ process on GDP, feeds the reconstructed series into a $VAR(1)$ with an exogenous driver $z_t$, and runs a Monte Carlo to recover the empirical CDF of outcomes:
+
+$$
+\Delta y_t = c + \phi\,\Delta y_{t-1} + \varepsilon_t,
+\qquad
+\mathbf{y}_t = \mathbf{c} + A\,\mathbf{y}_{t-1} + B\,z_t + \boldsymbol{\varepsilon}_t
+$$
+
 ![](IMG/AR_MC.jpg)
 <div>
     <p>1. Use an AR(1) process to model GDP and take the residuals which you then bootstrap.</p>
@@ -22,6 +30,16 @@ At NatWest Group (then RBS) I worked on macro-economic scenario design and expan
 ### ECL model
 
 At PwC I worked on a number of IFRS 9 model audits and also re-produced a large banking client's entire wholesale ECL modeling suite in R as part of the audit process. This was a large project that took several months to complete and allowed me to learn a lot about PD and LGD modeling. The model replication covered the Macro PD model, Through-the-Cycle and PiT Transition Matrix estimation (cohort and duration approach), CPD and LGD modeling.
+
+Expected Credit Loss decomposes into the three classic risk parameters, with Macro PD estimated by logistic regression of the Observed Default Rate (ODR) on macroeconomic factors:
+
+$$
+\mathrm{ECL} = \mathrm{PD}\cdot\mathrm{LGD}\cdot\mathrm{EAD},
+\qquad
+\mathrm{PD} = \mathbb{P}(y=1\mid x) = \frac{1}{1+e^{-\beta^{\top}x}}
+$$
+
+Transition matrices are estimated by the cohort estimator $\widehat{P}_{ij}=N_{ij}/N_i$ (or a continuous-time generator $P(t)=e^{Qt}$ for the duration approach), propagated over horizons via $P^{(n)}=P^{\,n}$.
 
 ![](IMG/ECL.png)
 <div>

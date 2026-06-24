@@ -60,6 +60,8 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'Macro';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -346,6 +348,13 @@
 <h2>Market-implied PD<a class="headerlink" href="#market-implied-pd" title="Link to this heading">#</a></h2>
 <style>img {width: 250px;height: 150px;margin-right: 15px;float: left;}</style>
 <p>While at Fathom Consulting, I built a model to extract market-implied conditional Sovereign PD from CDS spreads, based on Bank of England research and the CDS valuation paper of <a class="reference external" href="https://quantlabs.net/academy/download/free_quant_instituitional_books_/%5BLehman%20Brothers%5D%20Valuation%20of%20Credit%20Default%20Swaps.pdf">O’Kane &amp; Turnbull 2003</a></p>
+<p>The marginal PD is bootstrapped from CDS spreads via a hazard-rate <span class="math notranslate nohighlight">\(\lambda(t)\)</span>; a bivariate copula then gives the conditional PD of one sovereign defaulting given another, as the ratio of the joint over the marginal:</p>
+<div class="math notranslate nohighlight">
+\[
+\mathrm{PD}(t) = 1 - e^{-\int_0^{t} \lambda(s)\,ds},
+\qquad
+\mathrm{PD}(A \mid B) = \frac{C\big(F_A, F_B\big)}{F_B}
+\]</div>
 <p><img alt="" src="_images/CDS.jpg" /></p>
 <div>
     <p>Extract the CDS  implied PD using a hazard rate approach.</p>
@@ -357,6 +366,12 @@
 <h2>Nowcasting GDP<a class="headerlink" href="#nowcasting-gdp" title="Link to this heading">#</a></h2>
 <style>img {width: 250px;height: 150px;margin-right: 15px;float: left;}</style>
 <p>While at Fathom Consulting, I replicated the ECB published <a class="reference external" href="https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1275.pdf?145bf6e35251eedc79d9b1b6ff325e7a">Nowcasting methodology</a> of Reichlin &amp; Giannone, using Kalman filtering, VAR and bridging with factors.</p>
+<p>The high-frequency indicators are Kalman-filtered through a linear-Gaussian state space — state transition and noisy observation — to handle ragged-edge release schedules before bridging into GDP:</p>
+<div class="math notranslate nohighlight">
+\[
+x_t = F x_{t-1} + w_t, \qquad z_t = H x_t + v_t,
+\qquad w_t \sim \mathcal{N}(0, Q),\; v_t \sim \mathcal{N}(0, R)
+\]</div>
 <p><img alt="" src="_images/NowCast.png" /></p>
 <div>
     <p>This involves Kalman-filtering the various, high-frequency, inputs.</p>
@@ -367,15 +382,16 @@
 <section id="obr-macro-model">
 <h2>OBR macro model<a class="headerlink" href="#obr-macro-model" title="Link to this heading">#</a></h2>
 <p>At NatWest Group (then RBS) I worked on macro-economic scenario design and expansion, building a  scenario expansion engine based on the <a class="reference external" href="https://obr.uk/">OBR’s</a> own <a class="reference external" href="https://obr.uk/docs/dlm_uploads/Working-paper-No4-A-small-model-of-the-UK-economy.pdf">econometric model</a>.</p>
-<p>The OBR Small model is based around four core behavioural equations:</p>
-<style>img {width: 250px;height: 175px;margin-right: 15px;float: left;}</style>
-<p><img alt="" src="_images/OBR.png" /></p>
-<div>
-    <p>1. IS relation</p>
-    <p>2. Philips Curve</p>
-    <p>3. Uncovered Interest Parity (UIP)</p>
-    <p>4. Central Bank Reaction function (Taylor rule)</p>
-</div>
+<p>The OBR Small model is based around four core behavioural equations — an IS relation, a Phillips curve, an Uncovered Interest Parity condition, and a central-bank reaction (Taylor) rule:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{aligned}
+\textbf{IS relation:} \quad &amp; \tilde{y}_t = a_1\,\tilde{y}_{t-1} - a_2\,(r_t - r^{*}) + \varepsilon_t^{\,y} \\[2pt]
+\textbf{Phillips curve:} \quad &amp; \pi_t = \beta\,\mathbb{E}_t \pi_{t+1} + \kappa\,\tilde{y}_t + \varepsilon_t^{\,\pi} \\[2pt]
+\textbf{Uncovered Interest Parity:} \quad &amp; \frac{E_t(S_{t+1}) - S_t}{S_t} = i_t - i_t^{*} \\[2pt]
+\textbf{Taylor rule:} \quad &amp; i_t = r^{*} + \pi_t + 0.5\,(\pi_t - \pi^{*}) + 0.5\,\tilde{y}_t
+\end{aligned}
+\end{split}\]</div>
 <p>With a number of extensions for:</p>
 <style>img {width: 250px;height: 150px;margin-right: 15px;float: left;}</style>
 <p><img alt="" src="_images/OBR2.jpg" /></p>
@@ -384,6 +400,11 @@
     <p>6. Unconventional Monetary Policy (QE)</p>
     <p>7. Public Finances (Debt Sustainability Analysis equations)</p>
 </div>
+<p>The credit-spread / yield-curve extension uses the Nelson-Siegel factor form (Diebold-Li implementation), decomposing the curve into level <span class="math notranslate nohighlight">\(\beta_0\)</span>, slope <span class="math notranslate nohighlight">\(\beta_1\)</span> and curvature <span class="math notranslate nohighlight">\(\beta_2\)</span> factors that are then driven by macro variables:</p>
+<div class="math notranslate nohighlight">
+\[
+y(\tau) = \beta_0 + \beta_1\,\frac{1 - e^{-\lambda\tau}}{\lambda\tau} + \beta_2\left(\frac{1 - e^{-\lambda\tau}}{\lambda\tau} - e^{-\lambda\tau}\right)
+\]</div>
 </section>
 </section>
 
