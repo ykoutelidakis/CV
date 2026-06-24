@@ -23,7 +23,13 @@ I studied a number of stablecoin projects both collateralised (fully or partiall
 
 ## Automated Market Makers & Market Microstructure
 
-I analyzed AMM mechanisms and their market microstructure implications based on research including [Tarun Chitra's](https://web.stanford.edu/~boyd/papers/pdf/cfmm.pdf) and [Uniswap v.3](https://uniswap.org/whitepaper-v3.pdf) and [Curve](https://curve.fi/files/stableswap-paper.pdf) whitepapers:
+I analyzed AMM mechanisms and their market microstructure implications based on research including [Tarun Chitra's](https://web.stanford.edu/~boyd/papers/pdf/cfmm.pdf) and [Uniswap v.3](https://uniswap.org/whitepaper-v3.pdf) and [Curve](https://curve.fi/files/stableswap-paper.pdf) whitepapers. The canonical constant-product market maker prices trades to keep the reserve product invariant, which is what generates slippage and impermanent loss:
+
+$$
+x \cdot y = k
+$$
+
+where $x$ and $y$ are the pool reserves of the two assets and $k$ is held constant across each swap.
 
 ![](IMG/CFMM.bmp)
 <div> 
