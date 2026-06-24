@@ -21,7 +21,11 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install "jupyter-book<2"
+        pip install "jupyter-book<2" matplotlib numpy
+
+    - name: Regenerate charts
+      run: |
+        python make_charts.py
 
     - name: Build the book
       run: |
