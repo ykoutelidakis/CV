@@ -17,3 +17,9 @@ baseurl: /CV/
 sphinx:
   config:
     copyright: "2026"
+
+# Enable LaTeX math rendering (MathJax) in Markdown
+parse:
+  myst_enable_extensions:
+    - dollarmath
+    - amsmath
