@@ -10,13 +10,20 @@ At S&P Global, I co-led an inter-disciplinary project with Nvidia to apply Graph
 
 GNNs are the learnable generalization of network science, where node representations are updated by aggregating information from neighboring nodes. In each layer, each node gathers ("aggregates") messages from its neighbors and updates itself with learnable weights. The key insight is that the structure itself becomes part of the model — graph topology encodes relationships that traditional ML approaches would require as explicit feature engineering.
 
-**Key math:** Message passing and GCN layers aggregate neighbor features:
+**Key math.** A generic message-passing layer updates each node $v$ by aggregating transformed messages from its neighbours $\mathcal{N}(v)$:
 
-```
-h_v^(k) = UPDATE(h_v^(k-1), AGG_{u ∈ N(v)} MSG(h_u^(k-1)))
-```
+$$
+h_v^{(k)} = \mathrm{UPDATE}\!\left(h_v^{(k-1)},\ \underset{u \in \mathcal{N}(v)}{\mathrm{AGG}}\ \mathrm{MSG}\!\left(h_u^{(k-1)}\right)\right)
+$$
 
-After k layers, each node's representation encodes its k-hop neighborhood.
+The Graph Convolutional Network (GCN) is the canonical instance, with symmetric-normalised neighbour aggregation:
+
+$$
+H^{(l+1)} = \sigma\!\left(\tilde{D}^{-\tfrac{1}{2}}\,\tilde{A}\,\tilde{D}^{-\tfrac{1}{2}}\,H^{(l)}\,W^{(l)}\right),
+\qquad \tilde{A} = A + I
+$$
+
+After $k$ layers, each node's representation encodes its $k$-hop neighbourhood.
 
 ### Application to Bond Markets
 
