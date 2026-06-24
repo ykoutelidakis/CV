@@ -29,6 +29,11 @@ Accomplished quantitative economist with nearly 20 years’ experience applying 
 - **A dive into liquidity demographics for crypto asset trading** — [*S&P Global*](https://www.spglobal.com/en/research-insights/special-reports/liquidity-demographics-for-crypto-asset-trading) (2025)
 - **Mutually Assured Diversification: Geopolitical & Financial Risk as Compound Systemic Risk** — [*Paris School of Business, FEBS Conference*](https://febs2024.sciencesconf.org/) (2024)
 
+**S&P Global Market Intelligence — Research**
+- **From Royal Courts to Muddy Fields: Hunter Boot Ltd. Goes Into Administration** — [*S&P Global*](https://www.spglobal.com/market-intelligence/en/news-insights/research/from-royal-courts-to-muddy-fields-hunter-boot-ltd-goes-into-administration) (2024)
+- **Sitting on the Fence: Which Way Will the Solar Panel Industry Turn?** — [*S&P Global*](https://www.spglobal.com/market-intelligence/en/news-insights/research/sitting-on-the-fence-which-way-will-the-solar-panel-industry-turn) (2024)
+- **It’s Different This Time: A Banking Rhyme** — [*S&P Global*](https://www.spglobal.com/market-intelligence/en/news-insights/research/its-different-this-time-a-banking-rhyme) (2023)
+
 **Peer-Reviewed Academic**
 - **Transmission Channels of Systemic Risk in the European Financial Network** — [*Journal of Banking and Finance*](https://www.sciencedirect.com/science/article/abs/pii/S0378426615000989) (2015)
 - **Insights in European Interbank Network Contagion** — [*Journal of Managerial Finance*](https://www.emerald.com/insight/content/doi/10.1108/MF-03-2014-0095/full/html) (2015)
