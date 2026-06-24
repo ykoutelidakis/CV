@@ -48,7 +48,7 @@ GNNs automatically learn to propagate information across the network, capturing:
 - Indirect exposure: contagion through shared suppliers, customers, or markets
 - Systemic importance: how central a company is to the broader financial network
 
-This bridges **network science** (the field you published on) with **deep learning** (the modern AI toolkit).
+This bridges **network science** — the subject of my peer-reviewed publications on interbank contagion — with **deep learning**, the modern AI toolkit.
 
 ### Modeling Approach
 
@@ -64,34 +64,29 @@ This combines:
 - **Network Science:** Graph structure, centrality, contagion paths
 - **Deep Learning:** Learnable message passing, non-linear representations
 
-## AI and Machine Learning Foundations
+## Foundations: From Econometrics to Modern ML
 
-### Relationship to Your Existing Work
+Much of modern AI/ML generalises the econometrics and credit-risk methods I have built and deployed in production for nearly two decades. The mapping below summarises how core techniques on this CV relate to their machine-learning counterparts:
 
-The through-line to articulate: most "AI/ML" techniques are generalizations of the econometrics and credit risk tools you've deployed for two decades:
-
-| Your Tool | ML Generalization |
-|-----------|-------------------|
-| PD Model (logistic regression) | Binary Classification (cross-entropy loss) |
-| LGD Fractional Regression | Regression with distributional targets |
-| VAR time series | RNN/Attention (sequence modeling) |
+| Established Method | Machine-Learning Generalisation |
+|--------------------|---------------------------------|
+| PD model (logistic regression) | Binary classification (cross-entropy loss) |
+| LGD fractional regression | Regression with bounded / distributional targets |
+| Vector Autoregression (VAR) | Sequence models (RNNs, attention) |
 | Kalman filter | Optimal Bayesian state estimation for linear-Gaussian systems |
-| Network science (your publications) | Graph Neural Networks (learnable neighbor aggregation) |
-| Agent-based modeling | Multi-agent reinforcement learning |
+| Network science (interbank contagion) | Graph Neural Networks (learnable neighbour aggregation) |
+| Agent-based modelling | Multi-agent / reinforcement-learning systems |
 | Monte Carlo simulation | Importance sampling, variational inference |
 
-The shift from traditional econometrics to modern ML is largely one of **learning the relationships** (automatic feature engineering and model structure) instead of specifying them by hand.
+The transition from classical econometrics to modern ML is largely a move from specifying relationships by hand to **learning them from data** — automatic feature engineering and model structure in place of explicit functional forms.
 
-### Key Concepts Referenced in Your CV
+### Key Methods in Context
 
-**Agent-Based Models (ABM):** Instead of one equation for the whole market, simulate many heterogeneous agents following behavioral rules and let macro behavior (liquidity, price dynamics, cascades) emerge from interactions. Non-linear, out-of-equilibrium, good for studying systemic risk.
-
-**Loss Distribution Approach (LDA):** Compound (Poisson × severity) to get aggregate loss distribution. This is Monte Carlo sampling — you can view it as generative modeling of loss trajectories.
-
-**Transition Matrices & Markov Chains:** PiT vs. TTC distinction is about state-dependent dynamics. With GNNs, the transition probabilities can depend on the broader network state, not just the current issuer rating.
-
-**Copulas & Dependence:** Separate marginals from dependence structure. A GNN effectively learns the joint dependence by message passing — the learned weights encode how shocks propagate across dimensions.
+- **Agent-Based Models (ABM):** Rather than a single aggregate equation, many heterogeneous agents follow behavioural rules and macro behaviour (liquidity, price dynamics, cascades) emerges from their interactions — well suited to non-linear, out-of-equilibrium systemic-risk questions.
+- **Loss Distribution Approach (LDA):** Frequency compounded with severity (e.g. Poisson–lognormal) yields an aggregate-loss distribution via Monte Carlo, closely related to generative modelling of loss trajectories.
+- **Transition Matrices & Markov Chains:** The Point-in-Time versus Through-the-Cycle distinction reflects state-dependent dynamics; in a GNN, transition behaviour can be conditioned on the wider network state rather than on the issuer's rating alone.
+- **Copulas & Dependence:** Separating marginals from dependence structure parallels how a GNN learns joint dependence through message passing, with the learned weights encoding how shocks propagate across the system.
 
 ---
 
-**Interview angle:** When probed on AI/ML, anchor to the table above. You're not learning ML from zero — you're relabeling and extending a production toolkit you've shipped for two decades. The GNN application is simply network science (which you've published on) made learnable and applied to credit risk (your domain).
+Across these methods the common thread is a **network-science and systems-thinking lens** — now expressed through Graph Neural Networks and agent-based models — applied to long-standing problems in credit risk and macro-financial stability.
